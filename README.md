@@ -21,6 +21,8 @@ This predictor calculates what is the chance of the client actually returning th
 
 8.	Cell 8 is for loading the pre-trained model and using it to predict credit score.
 
+9.	If you plan on  on training the network yourself from start first delete feature.csv and label.csv
+
 The network use for this task is a 3-layered multilayer perceptron that gives out a number between 1 and 0 as output which after further processing is used to calculate the final credit score.
 
 
